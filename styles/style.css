@@ -2,7 +2,7 @@ body{
    /* background-image: url("./pozadina.jpg");*/
     padding: 0;
     margin: 0;
- background-image:url("/images/pozadina.jpg");
+ 
     
 }
 
@@ -17,10 +17,12 @@ width:20%;
 .prvi_naslov {
 
     font-size: 5rem;
+    color: blue;
 }
 
 .drugi_naslov {
     font-size: 5rem;
+    color: blue;
 }
 .flex-container{
 
@@ -28,6 +30,7 @@ width:20%;
     align-items: center;
    /* background-color: blue;*/
     flex-direction: column;
+    background-color: white;
 
 
 }
@@ -42,19 +45,23 @@ width:20%;
 #naslov_ruza{
     text-align: left;
     margin-left: 30rem;
+    color: red;
    
 }
 #naslov_tulip{
 
     text-align: right;
     margin-right:30rem;
+    color: red;
 }
 
 #naslov_azijski_tulip
 {
     text-align: left;
     margin-left:30rem;
+    color: red;
 }
+
 
 h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -66,3 +73,18 @@ p{
     font-size: large;
 }
 
+#background-body-color
+{
+    background-color: purple;
+}
+
+#first_paragraph_color
+{
+    background-color: black;
+    color: white;
+}
+.another_paragraph_color
+{
+    background-color: green;
+    color: white;
+}
