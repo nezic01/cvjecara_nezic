@@ -13,7 +13,11 @@ body{
 width:20%;
 
 }
-
+#polacvijeta{
+    
+    
+    aspect-ratio: 16/9;
+}
 .prvi_naslov {
 
     font-size: 5rem;
@@ -24,41 +28,51 @@ width:20%;
     font-size: 5rem;
     color: blue;
 }
-.flex-container{
+.store-title{
 
     display: flex;
-    align-items: center;
+    justify-content: space-between;
    /* background-color: blue;*/
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
 
 
+}
+.store-title-text{
+    text-align: center;
+}
+.text-block-roses{
+    width: 400px;
+    text-align: left;
 }
 .flex-bodycontainer{
 
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #naslov_ruza{
     text-align: left;
-    margin-left: 30rem;
+    
     color: red;
    
 }
+#razmak-ruza{
+    padding: 1em;
+}
 #naslov_tulip{
 
-    text-align: right;
-    margin-right:30rem;
+    
+    text-align: left;
     color: red;
 }
 
 #naslov_azijski_tulip
 {
     text-align: left;
-    margin-left:30rem;
+    
     color: red;
 }
 
@@ -75,7 +89,7 @@ p{
 
 #background-body-color
 {
-    background-color: purple;
+    background-color:#ff99ff;
 }
 
 #first_paragraph_color
@@ -87,4 +101,21 @@ p{
 {
     background-color: green;
     color: white;
+}
+
+#tulips-image{
+    padding: 1em;
+}
+
+#asian-tulip-image{
+    padding: 1em;
+}
+.text-block-tulip{
+ width: 400px;
+ 
+}
+
+.text-block-asian-tulip
+{
+    width: 400px;
 }
