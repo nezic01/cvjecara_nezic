@@ -1,1 +1,1 @@
-Moj prvi projekt u HTML i CSS.Izradjujemo stranicu cvjecare
+First project using HTML and CSS.Making web page of flower shop.
